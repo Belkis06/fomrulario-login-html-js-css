@@ -10,7 +10,7 @@ html {
 }
 
 body { 
-    background: #0a0;
+    background: rgb(17, 166, 235);
     padding-bottom: 20px;
 }
 
@@ -21,7 +21,7 @@ p {
 }
 
 form {
-    background: rgba(216, 90, 205, 0.884);
+    background: rgba(129, 122, 158, 0.952);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ form {
     border: 1px solid #000;
     margin: 0 auto;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgb(212, 7, 178);
+    box-shadow: 5px 5px 5px rgb(150, 212, 7);
 }
 
 input {
@@ -37,4 +37,28 @@ input {
     padding: 10px;
     border-radius: 15px;
     border: #CCC
+}
+
+#botones {
+    margin-top: 10px;
+}
+
+#botones button {
+    padding: 8px;
+    border-radius: 100px;
+    border:0;
+}
+
+#botones button:hover {
+    background: rgb(87, 83, 83);
+    color: #fff;
+    cursor: pointer;
+}
+
+Table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgb(39, 36, 36);
 }
